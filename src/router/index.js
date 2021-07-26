@@ -8,11 +8,19 @@ const routes = [
   {
     path: '/',
     name: 'Home',
+    // 路由发生变化修改页面title，需配合main.js代码生效
+    meta: {
+      title: 'Home'
+    },
     component: Home
   },
   {
     path: '/about',
     name: 'About',
+    // 路由发生变化修改页面title，需配合main.js代码生效
+    meta: {
+      title: 'About'
+    },
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
