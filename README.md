@@ -1,7 +1,7 @@
 # VUE3 BOOTCAMP
 ## 项目基于Vue-cli3创建,包含基本JS方法,依赖等;
 ### 基本配置
-#### 使用ES-Lint
+##### 使用ES-Lint
 ##### 使用scss
 ##### 使用vue-router
 ##### 使用vuex
